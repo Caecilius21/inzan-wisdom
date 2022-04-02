@@ -98,6 +98,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [str(BASE_DIR.joinpath('frontend/static'))]
+STATIC_ROOT = STATIC_ROOT = str(BASE_DIR.joinpath('frontend/staticfiles'))
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True
