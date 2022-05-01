@@ -26,11 +26,11 @@ function AppAppBar() {
             {'Inzan'}
           </Link>
           <Box sx={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
-          <Link
+            <Link
               color="inherit"
               variant="h6"
               underline="none"
-              href="/"
+              href="/dictionary/"
               sx={rightLink}
             >
               {'Dictionary'}
