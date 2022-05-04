@@ -9,15 +9,17 @@ import ProductCTA from './modules/views/ProductCTA';
 import AppAppBar from './modules/views/AppAppBar';
 import withRoot from './modules/withRoot';
 
+import Translate from '../Translate';
+
 function Index() {
   return (
     <React.Fragment>
       <AppAppBar />
       <ProductHero />
+      <Translate />
       <ProductValues />
       <ProductCategories />
       <ProductHowItWorks />
-      {/* <ProductCTA /> */}
       <ProductSmokingHero />
       <AppFooter />
     </React.Fragment>
